@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #91C4F2;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-weight: bold;
+}
+
+nav ul li{
+
+    list-style: none;;
+}
+nav ul li a{
+    font-size: 20px;
+    font-weight: bold;
+}
+header{
+    width: 100%;
+   height: 100px;
+    background-color: white;
+    border-bottom: 3px solid black;
+}
+.flex{
+    display: flex;
+}
+.container{
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+
+}
+nav{
+    height:20%;;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-left:20px;
+}
+nav ul li:hover{
+    border-bottom:3px solid black;
+}
+
+.wrapper{
+    background-color: white;
+    margin:30px auto;
+    width:80%;
+    border: 3px solid black;
+}
+.wrapper .container{
+    grid-template-columns: 2fr 5fr;
+    gap: 15px;
+    padding:20px;
+    height: 100%;
+}
+.grid{
+    display: grid;
+}
+.shit-on-my-chest{
+    padding-left: 30px;
+    width:100%;
+    height: 100%;
+    border: 3px dotted black;
+}
+.shit-on-my-chest h1{
+    font-size: 30px;
+}
+.meme-met-life{
+    text-align: center;
+    top:0;
+    height: 100%;
+    border: 3px dotted black;
+}
+.meme-met-life li{
+    list-style: none;
+}
+  
+.mem1{
+    height:200px;
+    width:10px;
+}
+.wonderwall{
+    
+    height:200px;
+    width:100px;
+
+}
+.bil-des{
+    display: flex;
+    width:100%;
+}
+.btn{
+    margin:10px auto;
+    border:none;
+    background-color:black;
+    color:white;
+    padding:10px;
+    font-size:20px;
+    transition: linear 0.3s;
+}
+.btn:hover{
+    margin:10px auto;
+    border:none;
+    background-color:grey;
+}
+#jon_wick{
+    top:0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height:100%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.453);
+    display: none; 
+    transition: width 2s;;
+}
+#center_shit{
+    background-color: white;
+    margin:0 auto;
+    height: 70%;
+    width:50%;
+}
+#x{position: absolute;
+    font-size: 40px;
+    right: 25px;
+    top:15px;
+    color: white;
+    font-family: arial;
+    transition: linear 0.3s;
+}
+#x:hover{position: absolute;
+    font-size: 40px;
+    right: 25px;
+    top:15px;
+    color: black;
+    font-family: arial;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: white;
+    width:100%;
+    border-top:3px solid black;
+}
+.font i {
+    font-size:40px;
+    padding-right: 10px;
+}
+.stats{
+    border: 3px dotted black;
+    padding:20px   ;
+}
+.aspire{
+    border: 3px dotted black;
+    padding:20px;
+    
+}
+.stats{
+    height:100px;
+}
+#quick-links{
+    height:auto;
+    border: 3px dotted black;
+    text-align: center;
+}
+#quick-links ul li{
+    list-style: none;
+    padding:5px;
+}
+#blog1{
+    height:auto;
+    border:3px dotted black;
+}
+@media screen {
+    
+}
